@@ -9,7 +9,7 @@
 Projeto desenvolvido em JAVA para a matéria de programação orientada a objetos na PUCPR.
 
 ### Branch:
-Developer
+Main
 
 ### Professor: 
 Galbas Milleo Filho
