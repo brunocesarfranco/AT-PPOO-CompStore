@@ -27,13 +27,14 @@ public class CompStore {
 public Celular leCelular (){
 
     String [] valores = new String [5];
-    String [] nomeVal = {"Modelo", "Marca", "Processador", "Ram", "Hd", "Preço"};
+    String [] nomeVal = {"Modelo", "Marca", "Processador", "Ram", "Hd", "Tela", "Preço"};
     valores = leValores (nomeVal);
 
     int ram = this.retornaInteiro(valores[3]);
-    int preco = this.retornaInteiro(valores[5]);
+    int tela = this.retornaInteiro(valores[5]);
+    int preco = this.retornaInteiro(valores[6]);
 
-    Celular celular = new Celular (valores[0], valores[1], valores[2], ram, valores[4], preco);
+    Celular celular = new Celular (valores[0], valores[1], valores[2], ram, valores[4], tela, preco);
     return celular;
 }
 
@@ -147,12 +148,11 @@ public void menuCompStore (){
     int    opc1, opc2;
 
     do {
-        menu = "Controle de Produtos da Loja - CompStore\n" +
-                "Opcoes:\n" + 
-                "1. Entrar Produtos\n" +
-                "2. Exibir Produtos\n" +
-                "3. Limpar Produtos\n" +
-                "4. Gravar Produtos\n" +
+        menu = "Controle de Produtos da Loja - CompStore\n\n" +
+                "1. Cadastrar Produtos\n" +
+                "2. Listar Produtos\n" +
+                "3. Excluir Produtos\n" +
+                "4. Gerar arquivo de Produtos\n" +
                 "5. Recuperar Produtos\n" +
                 "9. Sair";
         entrada = JOptionPane.showInputDialog (menu + "\n\n");
@@ -160,13 +160,13 @@ public void menuCompStore (){
 
         switch (opc1) {
         case 1:
-            menu = "Entrada de Produtos\n" +
-                    "Opcoes:\n" + 
+            menu = "Entrada de Produtos\n\n" +
+                    "Opções:\n" + 
                     "1. Celular\n" +
                     "2. Notebook\n" +
                     "3. Desktop\n";
 
-            entrada = JOptionPane.showInputDialog (menu + "\n\n");
+            entrada = JOptionPane.showInputDialog (menu + "\n");
             opc2 = this.retornaInteiro(entrada);
 
             switch (opc2){
