@@ -1,4 +1,4 @@
-# ATPPOO-CompStore
+# ATP-POO-CompStore
 Projeto desenvolvido em JAVA para a matéria de programação orientada a objetos na PUCPR.
 
 <p align="left">
