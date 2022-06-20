@@ -12,7 +12,7 @@ https://github.com/brunocesarfranco/ATP-POO-CompStore
 Projeto desenvolvido em JAVA para a matéria de programação orientada a objetos na PUCPR.
 
 ### Branch:
-Develop
+Main
 
 ### Professor: 
 Galbas Milleo Filho
