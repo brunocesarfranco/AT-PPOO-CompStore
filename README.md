@@ -12,7 +12,7 @@ Galbas Milleo Filho
 Bruno Cesar de Oliveira Franco
 
 ### Description: 
-Projeto desenvolvido em JAVA para a matéria de programação orientada a objetos na PUCPR.
+Projeto desenvolvido em JAVA para a matéria de programação orientada a objetos do curso Analise e Desenvolvimento de Sistemas na PUCPR.
 
 ### Branch:
 Develop
