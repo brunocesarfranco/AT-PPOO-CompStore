@@ -5,8 +5,11 @@
 <img align="center" alt="Bruno-JS" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
 </p>
 
-### Github: 
-https://github.com/brunocesarfranco/ATP-POO-CompStore
+### Professor: 
+Galbas Milleo Filho
+
+### Aluno: 
+Bruno Cesar de Oliveira Franco
 
 ### Description: 
 Projeto desenvolvido em JAVA para a matéria de programação orientada a objetos na PUCPR.
@@ -14,11 +17,11 @@ Projeto desenvolvido em JAVA para a matéria de programação orientada a objeto
 ### Branch:
 Develop
 
-### Professor: 
-Galbas Milleo Filho
-
 ### Projeto inicializador: 
 CompStore.java
+
+### Github: 
+https://github.com/brunocesarfranco/ATP-POO-CompStore
 
 ### Ultima mudança: 
 19/06/2022
