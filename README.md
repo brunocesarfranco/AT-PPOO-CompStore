@@ -20,8 +20,5 @@ Develop
 ### Projeto inicializador: 
 CompStore.java
 
-### Github: 
-https://github.com/brunocesarfranco/ATP-POO-CompStore
-
 ### Ultima mudança: 
 19/06/2022
